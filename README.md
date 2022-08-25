@@ -1,3 +1,3 @@
 # cf-search
 
-https://superstormer.github.io/cf-search/
+https://nick1st.github.io/cf-search/
