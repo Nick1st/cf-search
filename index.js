@@ -256,8 +256,10 @@
 			);
 		}
 
-		results = results.filter((result) =>
-			result.downloadCount > 1000
+		results = results.filter((result) => {
+			alert(min_downloads_el.value);
+			return result.downloadCount > 1000;
+		}
 		);
 
 		return results;
