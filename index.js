@@ -258,10 +258,8 @@
 
 		let minDownloadCount = min_downloads_el.value;
 
-		results = results.filter((result) => {
-			
-			return result.downloadCount > minDownloadCount;
-		}
+		results = results.filter((result) => 
+			result.downloadCount > minDownloadCount
 		);
 
 		return results;
