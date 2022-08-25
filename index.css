@@ -30,7 +30,7 @@ label {
 	font-size: 0.9rem;
 }
 input[type="number"] {
-	width: 5.5ch;
+	width: 10ch;
 }
 /* sidebar */
 #sidebar {
