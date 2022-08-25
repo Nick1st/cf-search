@@ -255,6 +255,10 @@
 			);
 		}
 
+		results = results.filter((result) =>
+			result.downloadCount > 1000
+		);
+
 		return results;
 	}
 
