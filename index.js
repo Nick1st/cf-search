@@ -30,6 +30,7 @@
 	let sort_order_el = by_id("sort-order");
 	let results_el = by_id("results");
 	let page_size_el = by_id("page-size");
+	let min_downloads_el = by_id("min-downloads");
 	let page_els = document.getElementsByClassName("page");
 	let loading_indicator = by_id("loading-indicator");
 	let reset_button = by_id("reset");
