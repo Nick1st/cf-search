@@ -256,9 +256,11 @@
 			);
 		}
 
+		let minDownloadCount = min_downloads_el.value;
+
 		results = results.filter((result) => {
-			alert(min_downloads_el.value);
-			return result.downloadCount > 1000;
+			
+			return result.downloadCount > minDownloadCount;
 		}
 		);
 
